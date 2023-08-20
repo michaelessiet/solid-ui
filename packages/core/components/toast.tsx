@@ -6,7 +6,7 @@ import type { VariantProps } from "class-variance-authority"
 import { cva } from "class-variance-authority"
 import { Portal } from "solid-js/web"
 
-import { Icons } from "../icons"
+import { Icons } from "~/components/icons"
 import { cn } from "~/lib/utils"
 
 const Toaster: Component<ToastPrimitive.ToastListProps> = (props) => {
